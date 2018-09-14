@@ -1,0 +1,9 @@
+<?xml version = "1.0"?>
+<project name = "Hello World Project" default = "clean">
+   <property file = "build.properties"/>
+   
+   <target name="clean">
+    <delete dir="${work.dir}"/>
+  </target>
+
+</project>
